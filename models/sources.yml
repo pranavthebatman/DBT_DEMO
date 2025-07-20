@@ -1,10 +1,9 @@
 version: 2
 
 sources:
-  - name: demo
-    database: demo  
-    schema: demo_schema  
+  - name: DEMO
+    schema: DEMO_SCHEMA              # adjust to your actual schema
     tables:
-      - name: bike
-      - name: weather
+      - name: BIKE
+
 
