@@ -4,5 +4,5 @@ sources:
   - name: DEMO
     schema: DEMO_SCHEMA
     tables:
-      - name: WEATHER
       - name: BIKE
+      - name: WEATHER
