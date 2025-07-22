@@ -21,7 +21,7 @@ ELSE 'AUTUMN'
 END AS STATION_OF_YEAR
 
 FROM
-{{ source('DEMO', 'BIKE') }}
+{{ ref('stg_bike') }}
 where STARTED_AT != 'started_at'
 
 
